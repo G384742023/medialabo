@@ -3,7 +3,8 @@ p {
 }
 
 p.info {
-	font-size: 10pt;
+	font-size: small;
+	color:#dfdfdf;
 }
 
 h1 {

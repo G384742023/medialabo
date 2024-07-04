@@ -22,7 +22,10 @@ h2.insertAdjacentElement('afterend', p);
 
 
 // 練習4-3 写真表作成プログラム
-
+let div = document.querySelector('div#phototable');       
+let src = document.createElement('a');                                     
+src.setAttribute('img', 'taro.png');
+div.insertAdjacentElement('beforeend', src);       
 
 // 練習4-4 箇条書き削除プログラム
 
